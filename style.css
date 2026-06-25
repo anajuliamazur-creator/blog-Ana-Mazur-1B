@@ -1,3 +1,9 @@
-      body {
+    .cabecalho {
           background-color: hotpink;
+          color:chartreuse;
+      }
+
+      .conteudo-principal{
+        background-color:chartreuse;
+        color:hotpink
       }
