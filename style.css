@@ -1,9 +1,22 @@
     .cabecalho {
           background-color: hotpink;
           color:chartreuse;
-      }
+          text-align: center;
+          max-widht: 800px;
+          margin: 0 auto;
+          padding: 16px;
+    }
 
       .conteudo-principal{
         background-color:chartreuse;
-        color:hotpink
+        color:hotpink;
+        max-widht: 800px
       }
+
+
+
+      .imagem-principal{
+        width: 200px
+        heigth: 200px 
+      }
+      
