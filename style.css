@@ -2,7 +2,7 @@
           background-color: hotpink;
           color:chartreuse;
           text-align: center;
-          max-widht: 800px;
+          max-width: 800px;
           margin: 0 auto;
           padding: 16px;
     }
@@ -10,13 +10,25 @@
       .conteudo-principal{
         background-color:chartreuse;
         color:hotpink;
-        max-widht: 800px
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 16px;
       }
-
-
 
       .imagem-principal{
-        width: 200px
-        heigth: 200px 
+        width: 200px;
+        height: 80px;
       }
       
+      .cabecalho-paragrafo{
+        font-weight: bold;
+      }
+
+      .conteudo-autor{
+        font-weight:bold;
+        text-decoration:italic;
+      }
+
+      .conteudo-principal-texto{
+        font-weight:bold;
+      }

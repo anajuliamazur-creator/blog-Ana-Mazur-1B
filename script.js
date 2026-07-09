@@ -1,13 +1,14 @@
 //cria um constante que seleciona o botão no html
 const botao = document.querySelector("button");
-//cria um evento de click e chama a função botaoClicado
+botoes.forEach(function(botao){
 botao.addEventListener("click",botaoClicado);
 
-//cria a função que fará com que o texto do numero zero some + 1 a cada click.
 function botaoClicado(){
+    console.log.apply("fui clicado");
     let texto = botao.querySelector("span");
     texto.textContent++;
 }
+});
 
 //         ####legendas:
 //querySelector: seleciona o primeiro elemento que corresponde a um seletor CSS especificando.
