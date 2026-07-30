@@ -1,16 +1,17 @@
-//cria um constante que seleciona o botão no html
 const botao = document.querySelector("button");
 botoes.forEach(function(botao){
+    let curtiu = false;
 botao.addEventListener("click",botaoClicado);
 
 function botaoClicado(){
     console.log.apply("fui clicado");
     let texto = botao.querySelector("span");
-    texto.textContent++;
+    if (curtiu === false){
+texto.textContent++;
+curtiu = true;
+    }
+    else{
+        texto.textContent--;
+        curtiu = false;
+    }
 }
-});
-
-//         ####legendas:
-//querySelector: seleciona o primeiro elemento que corresponde a um seletor CSS especificando.
-//addEventListener: adiciona um evento de click, permitindo que você execute uma função quando o evento ocorre.
-//textContent: modifica o conteúdo de texto de um elemento HTML.
