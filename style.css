@@ -1,6 +1,6 @@
     .cabecalho {
           background-color: hotpink;
-          color:chartreuse;
+          color:rgba(17, 13, 17, 0.974);
           text-align: center;
           max-width: 800px;
           margin: 0 auto;
@@ -8,12 +8,19 @@
     }
 
       .conteudo-principal{
-        background-color:chartreuse;
-        color:hotpink;
+        background-color:rgb(255, 0, 183);
+        color:rgba(26, 3, 15, 0.839);
         max-width: 800px;
         margin: 0 auto;
         padding: 16px;
       }
+
+        background-color:rgb(255, 0, 183);
+        color:rgba(26, 3, 15, 0.839);
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 16px;
+        
 
       .imagem-principal{
         width: 200px;
